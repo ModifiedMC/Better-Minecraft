@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computercraft"
+	group: "71F7E2A115B179B5"
+	icon: "computercraft:computer_normal"
+	id: "460EBAC3E7A70AD9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "73632A1438BDC9E4"
+		tasks: [{
+			id: "430D19EA39D7CF8F"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["and its extensions: Advanced Peripherals!"]
+	title: "ComputerCraft"
+}

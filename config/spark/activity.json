@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "xImpavid",
+      "uniqueId": "7d430897-801a-425c-924b-a74dd793604e"
+    },
+    "time": 1698017738522,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FV510Xj9EA"
+    }
+  }
+]

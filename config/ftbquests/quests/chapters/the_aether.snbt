@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "1D919BCB9C6FEDAD"
+	icon: "aether:aether_portal_frame"
+	id: "52057A6297832098"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft a portal with some &6glowstone&r and activate it with a &9bucket of water&r"]
+			id: "5FB63A4422C25B54"
+			rewards: [{
+				id: "62088EA088FCFC03"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Journey to The Aether!"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "3F15222128341BB5"
+				title: "To the Clouds!"
+				type: "dimension"
+			}]
+			title: "To the Skies!"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Moa Eggs&r can be hatched with an &dIncubator&r, and you can attract them with &5Aechor Petals&r!"
+				""
+				"These magestical birds can fly \\& be equipped with a saddle once grown. "
+			]
+			id: "22F94CDF6F247014"
+			subtitle: "Peaceful and majestic giant birds."
+			tasks: [{
+				id: "5FE6EE3DB72F384D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:moa_eggs"
+					}
+				}
+				title: "Any #aether:moa_eggs"
+				type: "item"
+			}]
+			title: "Companion of the Clouds!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "41BDD2B791E4F943"
+			tasks: [{
+				id: "645848ACE6D70D5C"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5603F1ABF9F66127"
+			tasks: [{
+				id: "34244FABC1C977C3"
+				item: "aether:aechor_petal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["It wasn't just a dream..."]
+	title: "The Aether"
+}

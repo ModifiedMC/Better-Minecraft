@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_dark"
+	group: "1D919BCB9C6FEDAD"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "693B7B3EC01B3AC2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "5E4D1E3EAAA19937"
+		shape: "hexagon"
+		size: 3.0d
+		tasks: [{
+			dimension: "deeperdarker:otherside"
+			icon: "deeperdarker:soul_crystal"
+			id: "6BCBAC13A17982CC"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Deeper Dark"
+}

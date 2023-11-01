@@ -1,0 +1,15 @@
+#181 minecraft:beach
+#1D9 regions_unexplored:blackwood_taiga
+#4F9 minecraft:dark_forest
+#3DE minecraft:deep_ocean
+#7E7 terralith:haze_mountain
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#4F1 minecraft:ocean
+#556 regions_unexplored:old_growth_bayou
+#5FF minecraft:river
+#7EA regions_unexplored:sparse_redwoods
+#359 terralith:stony_spires
+#4D3 minecraft:swamp
+#48F regions_unexplored:towering_cliffs
+#152 minecraft:windswept_forest

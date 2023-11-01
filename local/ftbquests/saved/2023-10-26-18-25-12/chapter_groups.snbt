@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "0E51BDAAE7AB4BDB", title: "Modpack Overview" }
+		{ id: "1D919BCB9C6FEDAD", title: "Modified Vanilla+" }
+		{ id: "71F7E2A115B179B5", title: "Mod Specific" }
+		{ id: "07F7422D9CC605D7", title: "Completionist" }
+	]
+}

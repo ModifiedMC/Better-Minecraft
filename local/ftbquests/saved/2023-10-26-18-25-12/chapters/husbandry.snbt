@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "husbandry"
+	group: "1D919BCB9C6FEDAD"
+	icon: "simplefarming:scarecrow"
+	id: "2E049F1FA33D244B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "321D0E5016D225F8"
+		tasks: [{
+			id: "6B55838E1921B967"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Farming, Livestock, and Cooking"]
+	title: "Husbandry"
+}

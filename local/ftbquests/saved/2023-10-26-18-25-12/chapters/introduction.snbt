@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "0E51BDAAE7AB4BDB"
+	icon: "simplehats:questbook"
+	id: "42B4A4B55997BB38"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Welcome to &lModified Minecraft&r!&r"
+				""
+				"&eA Modpack focused on tastefully modifying the whole vanilla feel of the game, with many additions and enhancements in all aspects! &r"
+				""
+				"&d&lA True Vanilla-Plus Experience.&r"
+			]
+			icon: "heartstone:heartstone"
+			id: "22FD2E00F8AC4766"
+			rewards: [{
+				id: "49B021761EF45D93"
+				item: "chipped:creeper_amethyst_block_carving"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Click Check to Unlock More!"
+			tasks: [{
+				id: "0DDF1CB849F80559"
+				type: "checkmark"
+			}]
+			title: "Welcome to Modified MC!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"&dThis modpack uses the &lFTB Suite&r&d of mods, optimized for a great user experience, you can always easily access the quests, teams, claims, and more with the &n&eicons at the top left of the inventory screen&r.&r"
+				""
+				"&5There are &d&lseveral quests&r&5 to help walk you through many of the mods, although many are optional there are plenty of quests for players of all types - Whether you're a &d&ocasual builder, explorer, or completionist,&r&5 there is quests of many kinds to walk you through all stages of the game!&r"
+				""
+				"&e&oSome Quests can be completed as a team :)&r"
+				"{image:ftbteams:textures/teams.png width:27 height:27 align:1}"
+			]
+			hide: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "ftbquests:book"
+			id: "738A21ED8A6F1226"
+			progression_mode: "linear"
+			subtitle: "Overview of all Core FTB Mods."
+			tasks: [
+				{
+					disable_toast: true
+					id: "305AA65779210CFA"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "00F63725B630D587"
+					type: "checkmark"
+				}
+			]
+			title: "Teams 'n Quests!"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			hide: true
+			hide_details_until_startable: true
+			icon: "simplehats:questbook"
+			id: "7842210755544A2E"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3B3D7C3FB5227E23"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "67A169C8347AE486"
+					type: "checkmark"
+				}
+			]
+			title: "FAQ / Common Controls"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"Its probably already familar to you if you've played other modded packs, but we also use &dJust Enough Items&r or &eJEI&r in &5MODIFIED MC!&r&0"
+				""
+				"You can use the search bar to find specific items, &dLeft click&r to view &dhow to craft&r and &5Right click&r to see &5what you can make/do&r with that item."
+				""
+				"To search for all items from a specific mod you can add an \"&e@&r\" to the begining, for example \"&d@Create&r\" will show you all items from the Create mod."
+				""
+				"To &dfavorite an item&r / pin it for later you can hit \"&eA&r\" while hovering over it in the JEI item list."
+			]
+			hide: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "alexscaves:cave_book"
+			id: "28AFB5B8B072A204"
+			subtitle: "JEI, Sorting Tweaks and More!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6E58EFDAA49FFB58"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "72DEC68C9F4C7971"
+					type: "checkmark"
+				}
+			]
+			title: "Inventory Tweaks"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"&dYou can access the Voice Chat GUI with &e\"V\"&r &dwhere you can change the settings like Volume, Voice Activation, etc. "
+				""
+				"&dBy default its on&r &5Push to Talk&r &dusing&r &eCAPS LOCK&r"
+			]
+			hide: true
+			hide_details_until_startable: true
+			icon: "simplehats:headphonesblue"
+			id: "6BA60FA75F10B66E"
+			subtitle: "PTT or Voice Activated Chat in-game!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "29DBC71B937FDAC1"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "1255F8A7C3FE8017"
+					type: "checkmark"
+				}
+			]
+			title: "Voice Chat!"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"You can now press \"&5Z&r\" to zoom when you have a spyglass ANYWHERE in your inventory! No more taking up a valubale Hotbar Space!"
+				""
+				"Lootr Allows &5Per-Player loot&r, meaning you can explore and conqeur dungeons with your friends, without having to fight over who gets what!"
+				""
+				" There are also many improvements to Villagers, Treasure Maps, Tridents, and even the brand new Archeology features!"
+				""
+				"&dGo out and explore what the worlds of ModifiedMC has to offer :)&r"
+			]
+			hide: true
+			hide_details_until_startable: true
+			icon: "lootr:trophy"
+			id: "7BBA6B07D8CF3C5F"
+			subtitle: "There are several QOL Additions in this modpack!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "50BF7FAB70A02D2D"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "5A881A3BD39560D6"
+					type: "checkmark"
+				}
+			]
+			title: "Simply Modified, Better Minecraft."
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"&5You will find the latest Create as well as many additions to the mod!&r"
+				""
+				"&eAs of the Current Version there is;&r &dBiomimicry, Compressed/Compact Blocks, Crafts n' Additions, Encased, Enchantment Industry, Sifter, Slice n' Dice, Steam \\& Rails, Rechiseled, Recycle Everything&r"
+				""
+				"&5Ponder items to learn more &e(Hold w)&r &5or search&r &d@Create&r &5in JEI!&r"
+			]
+			hide: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "create:goggles"
+			id: "4B2E38C0180B47E8"
+			subtitle: "Create endless possibilities in Modified MC!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "40C24D617D0D075D"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "74E0748A84DDC2CD"
+					type: "checkmark"
+				}
+			]
+			title: "Create and Additions!"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: ["&dThere are upgradable backpacks thanks to&r &e@SophisticatedBackpacks&r, &5Tool Belts &dto free Hotbar space, as well as a few tiers of bundles [&r&e@metalbundles&r&d] to make your exploration as seamless as possible!&r"]
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 2895973
+					clothColor: 12439408
+				}
+			}
+			id: "59E10A7DD5473A25"
+			subtitle: "For a more Enjoyable Adventure!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "50ADC62F5508688C"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "366AD654BB6F8020"
+					type: "checkmark"
+				}
+			]
+			title: "Backpacks and Exploration"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"In addition to all the other &5QOL tweaks&r like inventory essentials, mouse tweaks \\& more; you will find a variety of storage mods in this pack."
+				""
+				"&dIron Chests, Sophisticated Storage, Functional Drawers, Toms Simple Storage&r"
+				""
+				" For more info see the &dquests&r or search &5JEI&r to see if your favorite sorting system is included!"
+			]
+			hide: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "ironchests:gold_chest_upgrade"
+			id: "12B3EBF57978F5D0"
+			subtitle: "Storage Galore!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0E685A0D7DDC0BA5"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "26CA1D08D37F5C37"
+					type: "checkmark"
+				}
+			]
+			title: "Storage Mods"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22FD2E00F8AC4766"]
+			description: [
+				"Claims are handled with &5FTB Chunks&r, you can find the map icon at the &dtop left of your inventory&r. "
+				""
+				"Also included in Modified MC is &5Journey Map&r which can be accessed using \"&dM&r\", from there you will find many useful buttons and settings!"
+				"{image:ftblibrary:icons/map width:100 height:100 align:1}"
+			]
+			hide: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "minecraft:cartography_table"
+			id: "2FDED5F53D48E570"
+			subtitle: "Protect your builds \\& more with ...."
+			tasks: [
+				{
+					disable_toast: true
+					id: "70F7ECE85C63E9AD"
+					item: "chipped:creeper_amethyst_block_carving"
+					type: "item"
+				}
+				{
+					id: "33F50DCC9BD331AC"
+					type: "checkmark"
+				}
+			]
+			title: "Claims \\& Map!"
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+	title: "Introduction"
+}

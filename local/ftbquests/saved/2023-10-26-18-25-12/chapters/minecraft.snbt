@@ -1,0 +1,731 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecraft"
+	group: "1D919BCB9C6FEDAD"
+	icon: "minecraft:crafting_table"
+	id: "3E84F928A322EAED"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Storage Galore!"]
+			image: "ironchests:item/iron_dolly_filled"
+			rotation: -5.0d
+			width: 2.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:item/maze_map"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BB180D72BC3B3BA"
+			tasks: [{
+				id: "075829DBC20D017D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "It all starts with some Wood.."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "65354EADE3FE2E73"
+			tasks: [{
+				id: "70A07D26D0CCD753"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Get Craftin'"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "062185C087B57EB1"
+			rewards: [{
+				id: "095D99C31063A9D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6F7C4929407E1DFF"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "402A6C72E915A083"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D6646818F4A3C6B"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The first set of many"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "69592818883BDB19"
+			tasks: [{
+				id: "0E196ABD6CA97A67"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			title: "Gather some Stone"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6F9D734E6C89AB66"
+			tasks: [{
+				id: "166942D08D2B991B"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting an Upgrade!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&dThere are plenty of options for your tool of choice when it comes to pickaxes in modified minecraft."
+				""
+				"&eClick above to see all the available pickaxes in this modpack!&r"
+			]
+			id: "33A618888F25D419"
+			subtitle: "Click to see more info!"
+			tasks: [{
+				id: "07806FED61AE16ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:pickaxes"
+					}
+				}
+				title: "Any #minecraft:pickaxes"
+				type: "item"
+			}]
+			title: "So many pickaxes!"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "466554FC478B023E"
+			tasks: [{
+				id: "3F8692CB8AABA818"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Get to Smeltin'"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "569BE75E2A4900C7"
+			tasks: [
+				{
+					id: "1D4B727630C66C3E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:furnaces"
+						}
+					}
+					title: "Any #forge:furnaces"
+					type: "item"
+				}
+				{
+					id: "482EF6980DC495F6"
+					item: "ironfurnaces:upgrade_iron"
+					type: "item"
+				}
+			]
+			title: "Upgraded Furnaces!"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&dTo use the Upgrade, Simply Right click your Existing Furnace!"
+				""
+				"&5Search&r &e@Iron Furnaces&r &5in JEI for more info on all the Furnace Upgrades.&r"
+			]
+			id: "46B91F940A9CD7BD"
+			subtitle: "There are plenty of upgrades available..."
+			tasks: [
+				{
+					id: "098282C2714A9A4E"
+					item: "ironfurnaces:upgrade_iron"
+					type: "item"
+				}
+				{
+					id: "75A54A9509027D78"
+					item: "ironfurnaces:upgrade_copper"
+					type: "item"
+				}
+			]
+			title: "Upgrade your existing furnace!"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "47C1F9F0CE443286"
+			tasks: [{
+				id: "7B43AD6329C8D5AA"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "5ECF10635ADDB09C"
+			tasks: [{
+				id: "61FD65919585E511"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			guide_page: "test"
+			id: "3A4592B2E0C65F5B"
+			subtitle: "Many options to choose from!"
+			tasks: [{
+				id: "14306FCA8AB69715"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "Start of the Storage System"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "109396D9A803808C"
+			tasks: [
+				{
+					id: "75F71414848C93C6"
+					item: "ironchests:copper_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "594CFB23D7619D0A"
+					item: "ironchests:blank_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "4BF3403DAB6F8B55"
+			tasks: [{
+				id: "15A981680BB1C4FE"
+				item: "ironchests:iron_chest_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "1E2ECD94952CCA73"
+			tasks: [{
+				id: "7CF0FABB0FF9F8BA"
+				item: "ironchests:gold_chest_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "4D4BC6EE7DAED40E"
+			tasks: [{
+				id: "402B3E5E7BDAE1BA"
+				item: "ironchests:diamond_chest_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "6B8F20150448C63C"
+			tasks: [{
+				id: "3853995F31F6401C"
+				item: "ironchests:obsidian_chest_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "0933721DB139468A"
+			subtitle: "Hammers mine 3x3"
+			tasks: [{
+				id: "2FE5FF93BB889582"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Any #forge:tools/hammers"
+				type: "item"
+			}]
+			title: "Better Pickaxes..."
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "7923573B5E231BDD"
+			tasks: [{
+				id: "480A2F42431FAAA2"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			title: "Sophisticated Upgrades"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"&dThe above items are essential when it comes to setting up a storage system with sophisticated."
+				""
+				"&5Why Sophisticated you may ask? &dThese chests and barrels can be modified with plenty of upgrades!"
+				""
+				"&5Search &e&n@SophisticatedStorage&r &5in JEI to  see them all, as well as all the storage options included in this mod!"
+			]
+			id: "79EE678D35478B7A"
+			subtitle: "Storage Essentials"
+			tasks: [
+				{
+					id: "55065CD08DB2141C"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+				{
+					id: "5F9EBEB1FBDF7B7F"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+				{
+					id: "1F6EADAFBF863CF8"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "Sophisticated?"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "18089BBD3BB72F43"
+			subtitle: "Storage drawers.. but better!"
+			tasks: [{
+				id: "50AFB2223345EE7C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "Fancy Drawers instead?"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			description: ["&dSearch &e@Functional &dfor all available storage options and upgrades!"]
+			id: "707B7C30546F832F"
+			subtitle: "Upgradable Drawers!"
+			tasks: [
+				{
+					id: "22633B297AB113DE"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E180B2509E99D33"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+				{
+					id: "09F31B946AC233B5"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "749273B72C4E326C"
+					item: "functionalstorage:controller_extension"
+					type: "item"
+				}
+				{
+					id: "0762F25262CDA21E"
+					item: "functionalstorage:ender_drawer"
+					type: "item"
+				}
+			]
+			title: "Functional Storage"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"&dThe above items add some functionality to your storage drawers, there are also storage upgrades."
+				""
+				"&dSearch &e@Functional &din &5JEI &dfor more info!"
+			]
+			id: "3D41E95A63E5E203"
+			subtitle: "Add some utility to those drawers!"
+			tasks: [
+				{
+					id: "4E19218444EF0DC6"
+					item: "functionalstorage:collector_upgrade"
+					type: "item"
+				}
+				{
+					id: "447A588A73DCDEB2"
+					item: "functionalstorage:puller_upgrade"
+					type: "item"
+				}
+				{
+					id: "40DC6038EB518987"
+					item: "functionalstorage:pusher_upgrade"
+					type: "item"
+				}
+				{
+					id: "739D2D5C8CD69636"
+					item: "functionalstorage:redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "2CBF1ACE6CF254E6"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			title: "Functional Upgrades"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "1D4FCDFA7CB1192A"
+			subtitle: "Excavators mine 3x3"
+			tasks: [{
+				id: "2D86E3F2C17E7BB6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/excavators"
+					}
+				}
+				title: "Any #forge:tools/excavators"
+				type: "item"
+			}]
+			title: "Better Shovels..."
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "1A81ACAB402D0F49"
+			tasks: [{
+				id: "3495C55EC2EC7768"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "0370DE6539CF657B"
+			tasks: [{
+				id: "65F473C1B183884A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iron_ender_chests:iron_tier"
+					}
+				}
+				title: "Any #iron_ender_chests:iron_tier"
+				type: "item"
+			}]
+			title: "4 Rows of Storage"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "3091F2B101640352"
+			tasks: [{
+				id: "352636D3DD5F82C1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iron_ender_chests:diamond_tier"
+					}
+				}
+				title: "Any #iron_ender_chests:diamond_tier"
+				type: "item"
+			}]
+			title: "5 Rows of Storage!"
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "5C96A6CA0BA6B339"
+			subtitle: "6 Rows of Storage"
+			tasks: [{
+				id: "6A13CD00191D0EAF"
+				item: "iron_ender_chests:netherite_ender_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			description: ["&dAbove are some of my favourite upgrades for the bags, but there are many more for all kinds of playstyles - search &e@SophisticatedBackpacks &dor \"&eUpgrades&d\" in &5JEI &dto see them all!"]
+			id: "20E8903CCAF95D43"
+			subtitle: "Upgrades Galore!"
+			tasks: [
+				{
+					id: "7E1C09896E64571D"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "59514FE5F5F3BBE8"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "2FAF18669564A7F5"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "171835914B4C226D"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+					type: "item"
+				}
+				{
+					id: "66B34C4842A9B31C"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Upgrades"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&dThe above items are the essentials when getting started with &eToms Simple Storage&d, There are more upgrades and blocks for advanced users available."
+				""
+				"&dSearch &5@Toms &dfor more info!"
+			]
+			id: "530C6F3198880685"
+			subtitle: "Toms Storage Essentials"
+			tasks: [
+				{
+					id: "142762DA0E147F61"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "5E1464032E3D47A3"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "592EA27C77EB6AD5"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "2054E16CC4727918"
+					item: "toms_storage:ts.trim"
+					type: "item"
+				}
+				{
+					id: "7170ED72B3FBEE19"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "02A48B8999D18EA8"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "5095F2E276E0C4E6"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					type: "item"
+				}
+			]
+			title: "Create an Organized Network!"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "1AF5F9666823A2DF"
+			tasks: [{
+				id: "708713B918EDB808"
+				item: "oresabovediamonds:black_opal_ore"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "2675D9318072C8EE"
+			tasks: [{
+				id: "6F5109110FFE3495"
+				item: "oresabovediamonds:amethyst_ore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "5433F25D4F8BC235"
+			tasks: [
+				{
+					id: "7C1DC9932FCC35F7"
+					item: "ironfurnaces:item_spooky"
+					type: "item"
+				}
+				{
+					id: "6D7A108EFD112ED0"
+					item: "ironfurnaces:item_xmas"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "3AEAB8DF5164D8B2"
+			tasks: [{
+				id: "1CE84B98A4725AB1"
+				item: "supplementaries:present"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			id: "592DAB1591FC1AD9"
+			tasks: [{
+				id: "5E0A948B56BC5695"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "26E1A334DD2844DF"
+			tasks: [{
+				id: "67FEA4022359A5B3"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "348797794286189A"
+			tasks: [{
+				id: "1EDB5F7F1EEE86E1"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Modified Vanilla Minecraft"]
+	title: "Minecraft"
+}

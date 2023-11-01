@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everything"
+	group: "07F7422D9CC605D7"
+	id: "5F857727C85FF938"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Everything!"
+}

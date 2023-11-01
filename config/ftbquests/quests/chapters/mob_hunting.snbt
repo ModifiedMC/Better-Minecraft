@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_hunting"
+	group: "07F7422D9CC605D7"
+	icon: "simplehats:rgbdragonskull"
+	id: "60351F2801C09FD5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DDA88E3CF974544"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2CA8D651B259038B"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6CCE1B541279C364"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "27E2B19E8E85275F"
+				optional_task: true
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Mob Hunting"
+}

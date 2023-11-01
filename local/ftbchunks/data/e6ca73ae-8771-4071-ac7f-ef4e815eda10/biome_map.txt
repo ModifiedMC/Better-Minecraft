@@ -1,0 +1,14 @@
+#2A7 regions_unexplored:ancient_delta
+#556 minecraft:beach
+#675 regions_unexplored:bioshroom_caves
+#1D9 regions_unexplored:blackwood_taiga
+#4F9 minecraft:dark_forest
+#5E2 terralith:forested_highlands
+#6DD regions_unexplored:grassy_beach
+#498 minecraft:lush_caves
+#4F1 minecraft:ocean
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#5FF minecraft:river
+#169 minecraft:taiga
+#597 terralith:temperate_highlands

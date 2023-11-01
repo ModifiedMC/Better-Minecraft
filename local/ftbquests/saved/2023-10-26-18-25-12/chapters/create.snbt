@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "71F7E2A115B179B5"
+	icon: "create:goggles"
+	id: "5EB4F7E64CF67680"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2B0DB22D9667D7EA"
+		tasks: [{
+			id: "6D090450D7D07BC0"
+			type: "custom"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
+	subtitle: [""]
+	title: "CREATE! (w/ Addons)"
+}
